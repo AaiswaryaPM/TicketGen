@@ -8,7 +8,7 @@ Dynamic Event Listing: Browse events with real-time sorting by date.
 
 Instant QR Generation: Automatically encodes event and participant data into a scan-able QR code.
 
-Live Ticket Preview: View your ticket layout instantly before downloading.
+Ticket Preview: View your ticket layout instantly before downloading.
 
 Canvas-Based Downloads: Generates and downloads a high-resolution .png ticket directly from the browser.
 
