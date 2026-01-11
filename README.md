@@ -1,35 +1,38 @@
-# TicketGen
-A sleek, client-side Event Registration and QR Ticket Generation System.
+# 🎫 TicketGen: Professional Event Registration System
 
-TicketGen is a modern web application designed to streamline the event check-in process. It allows users to browse upcoming events, register with their details, and instantly generate a downloadable, high-quality digital ticket equipped with a unique QR code.
+## 📌 Description
+TicketGen is a sleek, responsive web application designed for seamless event discovery and instant ticket generation. Built with a "glassmorphism" aesthetic, it allows users to browse upcoming academic and tech events, register with their details, and download a custom-generated PNG ticket featuring a unique QR code.
 
-✨ Features
-Dynamic Event Listing: Browse events with real-time sorting by date.
+## ✨ Features
+ - 📅 **Event Management:** Browse a curated list of upcoming summits, workshops, and masterclasses.
+ - 🔍 **Smart Sorting:** Sort events by date (Earliest or Latest) to find what suits your schedule.
+ - 📝 **Instant Registration:** User-friendly modal interface for quick sign-ups with email validation.
+ - 🖼️ **Dynamic Ticket Generation:** Generates a high-quality visual ticket on the fly using HTML5 Canvas.
+ - 🛡️ **Validation & Security**
+      - **Email Validation:** Uses Regex to ensure users provide a correctly formatted email address.
+      - **Canvas Security:** Implements `crossOrigin = 'Anonymous'` to safely handle external QR code images during the PNG generation process.
+ - 📲 **QR Code Integration:** Every ticket includes a unique QR code containing event and attendee metadata.
+ - 📥 **PNG Download:** One-click download to save your professional entry pass for offline use.
+ - 📱 **Fully Responsive:** Optimized for desktop, tablet, and mobile devices.
 
-Instant QR Generation: Automatically encodes event and participant data into a scan-able QR code.
+## 🛠️ Technology Stack
+ - **HTML5:** Semantic structure and Canvas API for image rendering.
+ - **CSS3:** Advanced styling using CSS Variables, Flexbox, Grid, and smooth animations.
+ - **JavaScript (Vanilla):** All logic for sorting, modal handling, and ticket generation—no heavy frameworks required.
+ - **QR Server API:** Real-time generation of attendee-specific QR codes.
 
-Ticket Preview: View your ticket layout instantly before downloading.
+## 📖 How It Works
+ - **Browse:** Scroll through the list of events or use the Sort by dropdown to organize them.
+ - **View Details:** Click the Details button to see the Chief Guest, timing, and a brief description.
+ - **Register:** Hit Register, enter your name and email, and click Generate Ticket.
+ - **Preview & Download:** Your ticket will appear instantly in the sidebar. Review it and click Download Ticket (PNG) to save it to your device.
 
-Canvas-Based Downloads: Generates and downloads a high-resolution .png ticket directly from the browser.
+## 🚀 Live Demo
+https://aaiswaryapm.github.io/TicketGen/
 
-Responsive UI: Fully optimized for desktop and mobile devices with a "glassmorphism" aesthetic.
-
-Validation: Built-in email format validation and required field checks.
-
-🛠️ Built With
-HTML5 & CSS3: For the structural layout and modern UI styling.
-
-JavaScript (ES6+): Logic for event sorting, modal management, and data handling.
-
-HTML5 Canvas API: Used to draw and export the final ticket image.
-
-QRServer API: Powering the real-time generation of QR codes.
-
-📸 How it Works
-Select an Event: Choose from the list of available summits or workshops.
-
-Register: Enter your name and email in the registration modal.
-
-Generate: The system assigns a unique Ticket ID and creates a QR code.
-
-Download: Click "Download Ticket (PNG)" to save your entry pass to your device.
+## 📂 Project Structure
+```
+TicketGen/
+├── index.html              
+├── style.css      
+└── script.js
