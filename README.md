@@ -34,5 +34,6 @@ https://aaiswaryapm.github.io/TicketGen/
 ```
 TicketGen/
 ├── index.html              
-├── style.css      
-└── script.js
+├── style.css
+├── script.js       
+└── README.md
